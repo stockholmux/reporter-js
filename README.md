@@ -12,13 +12,15 @@ Well, let's use some of the most conceptually accessible concepts around:
 * __[Bootstrap](http://getbootstrap.com/2.3.2/)__ what front end dev hasn't used it? You can supply your own stylesheet (or no style sheet at all, if that is how you roll) and nothing will break - but throw in a theme from, say, [Bootswatch](http://bootswatch.com) and, hey presto, you've got a nice responsive report.
 * __Node.JS__ makes it all possible, leveraging the [Express framework](http://expressjs.com/), we have a fully working system for generating reports in a few hundred lines.
 
+Take a look at the [example](http://kylejdavis.com:3007/example).
+
 ##Super simple syntax
 
 The markup for Reporter.JS is contained between <code>&#61;</code>. Nothing successfully parsed will be visible in the final webpage.
 
 ###Associate a spreadsheet
 
-Associating a spreadsheet is simple. This example uses the sheet published at:
+Associating a spreadsheet is simple. The example uses the sheet published at:
 
 `https://docs.google.com/spreadsheets/d/19xwVCTzHJCM1cmjHbyJY25JtdaEU7_stkAdp_rm-D1w/pubhtml`
 

@@ -1,7 +1,12 @@
 {
   "name": "reporter-js",
   "description": "Make reports with markdown and Google Spreadsheets",
-  "version": "0.0.1",
+  "version": "0.0.2",
+    "author": {
+    "name": "Kye J. Davis",
+    "email": "kyle@higheredcareers.ca"
+  },
+  "license": "MIT",
   "dependencies": {
     "express" : "4.4.0",
     "marked"  : "0.3.2",
@@ -10,5 +15,16 @@
     "multiline": "0.3.4",
     "request" : "*"
   },
-  "main" : "reporter.node.js"
+  "main" : "reporter.node.js",
+  "keywords": [
+    "markdown",
+    "node",
+    "spreadsheet",
+    "charts",
+    "express"
+  ],
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/stockholmux/reporter-js"
+  }
 }
